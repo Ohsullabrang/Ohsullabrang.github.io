@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(rgb(255, 255, 255), #474646);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    margin: 5px;
+}
+
+
+#homeiconn{
+   position: relative;
+   top: -30px;
+   left: 10px;
+   width: 50px;
+}
+
+#maintext{
+    position: relative;
+    top: 4px;
+    left: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#theline{
+    border-color: rgb(255, 255, 255);
+}
+
+
+
+#mariafacts{
+    position: relative;
+    left: -215px;
+    top: -20px;
+    font-size: 25px;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}@keyframes slideUp {
+    from{transform: translateY(2000px)}
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(34, 34, 34);
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    overflow: hidden;
+}
+
+.navbar a{
+    background-color: rgb(31, 30, 30);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.navbar a:hover{
+    background-color: rgb(63, 62, 62);
+    color: black;
+}
+
+.navbar li{
+    float: left;
+}
+
+#aboutmaria{
+    position: relative;
+    right: -5px;
+    top: 0px; 
+}
+
+#aline{
+    position: relative;
+    top: -100px;  
+}
+
+#buttonok{
+    font-size: 200px;
+}
+
+#naturepic{
+    height: 800px;
+    position: relative;
+    top: -600px;
+    right: -800px;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+@keyframes slideLeft {
+    from{transform: translateX(1500px)}
+}
+
+#bokatext{
+    text-align: center;
+    animation-name: slideDown;
+    animation-duration: 2s;
+}@keyframes slideDown {
+    from{transform: translateY(-200px)}
+}
